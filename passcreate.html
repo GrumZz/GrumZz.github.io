@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassCreate</title>
+    <link rel="stylesheet" href="css/styles-passcreate.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <div class="panel">
+        <h1>PassCreate</h1>
+        <p>PassCreate kann Ihnen helfen, ein Passwort für Ihre Bedürfnisse zu erstellen! Drücken Sie einfach auf "Passwort generieren" und es wird sofort ein starkes Passwort generiert!</p>
+        <div class="password-field"></div>
+        <div id="result">HIER KOMMT IHR PASSWORT</div>
+        <br>
+        <div id="buttons">
+            <button onclick="getElementById('result').innerHTML=generatePassword(18)">Passwort generieren</button>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>
